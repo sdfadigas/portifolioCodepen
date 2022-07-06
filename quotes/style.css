@@ -1,0 +1,143 @@
+/*general*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: rgb(16,145,200);
+  background: linear-gradient(180deg, rgba(16,145,200,1) 0%, rgba(44,53,128,1) 100%);
+  margin: 0;
+  max-width: 1080px;
+  align-items:center;
+}
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+
+/*BG*/
+.bg {
+  background-size: 50%;
+  background-repeat:repeat-x;
+  height:min-content
+  animation-name: bg;
+  animation-duration:10s;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes bg {
+  from {background-image:url(https://svgshare.com/i/iXp.svg)}
+  to {background-image:url(https://svgshare.com/i/iVN.svg)}
+}
+
+
+/*quote*/
+.icon {
+  padding-bottom: 20px;
+  margin:auto;
+}
+.quote-container {
+  margin:auto;
+  width: 400px;
+  height:max-content;
+  color:white;
+  padding-right: 22px;
+}
+.quote-title {
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.box {
+  margin:10px;
+  padding:10px;
+  text-align: center;
+}
+
+
+/*button*/
+
+.button-container {
+  display: block;
+  text-align: center;
+  margin: 100px 0 100px 0;
+  
+
+}
+.button {
+  width: 200px;
+  -moz-box-shadow: 3px 4px 0px 0px #01b389;
+  -webkit-box-shadow: 3px 4px 0px 0px #01b389;
+  box-shadow: 3px 4px 0px 0px #01b389;
+  background-color: #56FDD2;
+  -moz-border-radius: 0.2em;
+  -webkit-border-radius: 0.2em;
+  border-radius: 20px;
+  border: hidden;
+  font-size: 1.2em;
+  font-weight: bold;
+  transition: transform 0.4s ease-out;
+  cursor:pointer;
+  color:rgba(44,53,128,1) 100%;
+  width: 250px;
+  height: 50px;
+  
+}
+
+.button:hover {
+  background-color: #e0ca00;
+  box-shadow: 3px 4px 0px 0px #918e00;
+  text-shadow: 0px 1px 0px #f0f180;
+  transform: translateY(4px);
+}
+
+.button:active {
+  position: relative;
+  top: 0.15em;
+}
+
+.button:focus {
+  outline-color: #dedfde;
+}
+
+/* Footer */
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 10px;
+  color:white;
+  background-color:rgba(44,53,128,1) 100%;
+}
+.contact-links {
+  display: flex;
+  justify-content: center;
+  max-width: 1080px;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+}
+
+.contact-details {
+  font-size: 15px;
+  transition: transform 0.3s ease-out;
+  color:white !important;
+ }
+.btn {
+  padding: 1rem 1rem;
+  margin:auto;
+}
+.border-top {
+  border-top: 1px solid #dee2e6!important;
+}
+.contact-details:hover {
+  transform: translateY(4px);
+}

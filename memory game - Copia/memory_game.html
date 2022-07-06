@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="https://svgshare.com/i/hrX.svg">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+<link href="https://cdn.jsdelivr.net/npm/bootsdivap@5.0.2/dist/css/bootsdivap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap" rel="stylesheet"/>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg" id="nav">
+        <div class="align-items-center">
+            <img src="https://svgshare.com/i/i8H.svg" id="logo">
+        </div>
+    </nav>        
+        <main>
+        <span class="move-counter" id="moveCounter"></span>    
+            <div class="game-board">
+                <div class="game-grid">
+                    <div class="row game-grid-row">
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/XVfzCq0/1.png" alt="hexa1">
+                        </div>
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/WGsfbxZ/2.png" alt="hexa2">
+                        </div>
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/ZK8S42g/3.png" alt="hexa3">
+                        </div>
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/8BgJFPZ/4.png" alt="hexa4">
+                      </div>
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/mTgbj6V/5.png" alt="hexa5">
+                        </div>                                           
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/D4QKj2J/6.png" alt="hexa6">
+                        </div>
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/7XBTXBX/7.png" alt="hexa7">
+                        </div>
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/MMYJwbP/8.png" alt="hexa8">
+                        </div>
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/SNz4cn8/9.png" alt="hexa9">
+                        </div>
+                    </div>
+                </div>
+                        <div class="row game-grid-row">
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/YQPrs6D/10.png" alt="hexa10">                       
+                        </div>
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/vkvPZ3V/11.png" alt="hexa11">
+                        </div>
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/fvvSMvB/12.png" alt="hexa12">
+                        </div>
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/4TFPgb3/13.png" alt="hexa13">
+                        </div>
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/QMLtZR8/14.png" alt="hexa14">
+                        </div>
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/cLdP9Qg/15.png" alt="hexa15">
+                        </div>
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/59HFm6c/16.png" alt="hexa16">
+                        </div>
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/p3mJdrs/17.png" alt="hexa17">
+                        </div>
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/1JmGznq/18.png" alt="hexa18">
+                        </div>
+                    </div>
+                    <div class="row game-grid-row">
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/SxwfKX6/19.png" alt="hexa19">
+                        </div> 
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/mNFJqDX/20.png" alt="hexa20">
+                        </div>
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/YbC9gRb/21.png" alt="hexa21">
+                        </div>
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/1YCPXYG/22.png" alt="hexa22">
+                        </div>
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/TL7PpCM/23.png" alt="hexa23">
+                      </div>
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/0c081yd/24.png" alt="hexa24">
+                        </div>                                           
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/cDVMp3W/25.png" alt="hexa25">
+                        </div>
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/gMyL4w9/26.png" alt="hexa26">
+                        </div>
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/D9Qd1ny/27.png" alt="hexa27">
+                        </div>
+                    </div>
+                    <div class="row game-grid-row">
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/XVfzCq0/1.png" alt="hexa1">
+                        </div>
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/WGsfbxZ/2.png" alt="hexa2">
+                        </div>
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/ZK8S42g/3.png" alt="hexa3">
+                        </div>
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/8BgJFPZ/4.png" alt="hexa4">
+                      </div>
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/mTgbj6V/5.png" alt="hexa5">
+                        </div>                                           
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/D4QKj2J/6.png" alt="hexa6">
+                        </div>
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/7XBTXBX/7.png" alt="hexa7">
+                        </div>
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/MMYJwbP/8.png" alt="hexa8">
+                        </div>
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/SNz4cn8/9.png" alt="hexa9">
+                        </div>
+                    </div>
+                    <div class="row game-grid-row">
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/YQPrs6D/10.png" alt="hexa10">                       
+                        </div>
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/vkvPZ3V/11.png" alt="hexa11">
+                        </div>
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/fvvSMvB/12.png" alt="hexa12">
+                        </div>
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/4TFPgb3/13.png" alt="hexa13">
+                        </div>
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/QMLtZR8/14.png" alt="hexa14">
+                        </div>
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/cLdP9Qg/15.png" alt="hexa15">
+                        </div>
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/59HFm6c/16.png" alt="hexa16">
+                        </div>
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/p3mJdrs/17.png" alt="hexa17">
+                        </div>
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/1JmGznq/18.png" alt="hexa18">
+                        </div>
+                    </div>
+                    <div class="row game-grid-row">
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/SxwfKX6/19.png" alt="hexa19">
+                        </div> 
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/mNFJqDX/20.png" alt="hexa20">
+                        </div>
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/YbC9gRb/21.png" alt="hexa21">
+                        </div>
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/1YCPXYG/22.png" alt="hexa22">
+                        </div>
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/TL7PpCM/23.png" alt="hexa23">
+                      </div>
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/0c081yd/24.png" alt="hexa24">
+                        </div>                                           
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/cDVMp3W/25.png" alt="hexa25">
+                        </div>
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/gMyL4w9/26.png" alt="hexa26">
+                        </div>
+                        <div class="col game-card">
+                            <img class="game-card-img" src="https://i.ibb.co/D9Qd1ny/27.png" alt="hexa27">
+                        </div>
+                    </div>
+                </div>               
+            </div>
+        </section> 
+            <div class="restart-button-div">
+                <button class="restart-button brown-button" id="restartButton" onClick="startGame()">Restart ↻</button>
+            </div>
+        </section>
+        
+        <!--Modal on game over -->
+        <div class="modal" id="gameOverModal">
+            <div class="modal-content">
+                <span aria-label="close" role="button" class="close" id="closeModal">&times;</span>
+                <div class="modal-header">
+                    <h2>Game Over</h2>
+                </div>
+                <div class="modal-body">
+                    <div class="message">
+                        <p>Congratulations! <span class="game-over-icons">🎊 🎊 🎊</span> You successfully completed the game. <span class="game-over-icons" style="animation-delay: 0.2s">🎉 🎉 🎉</span></p>
+                        <p>You completed the game using <span id="totalGameMoves"></span> moves
+                            <br>in <span id="totalGameTime"></span>
+                        </p>
+                        <p>Your rating is: <span id="finalStarRating"></span></p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="brown-button" onClick="playAgain()">Play Again &nbsp;😀</button>
+                </div>
+            </div>
+        </div>
+
+<footer id="contact" class="contact-section">
+<div class="contact-section-header">
+  <p class='h6 text-muted'>developed by:</p>
+  <p class='h3'>Samara Dumont Fadigas</p>
+  <p class='h6'><em>web development enthusiast</em></p> 
+</div>
+<div class="contact-links border-top">
+  <a
+    href="https://codepen.io/sdfadigas"
+    target="_blank"
+    class="btn contact-details">
+  <i class="fa-solid fa-browser"></i> samara.dev.br</a>
+  <a
+    href="https://codepen.io/sdfadigas"
+    target="_blank"
+    class="btn contact-details">
+  <i class="fa-brands fa-codepen"></i> Codepen</a>
+  <a
+    id="profile-link"
+    href="https://github.com/sdfadigas"
+    target="_blank"
+    class="btn contact-details"
+    ><i class="fab fa-github"></i> GitHub</a>
+  <a
+    href="https://twitter.com/oxesasa"
+    target="_blank"
+    class="btn contact-details"
+    ><i class="fab fa-twitter"></i> Twitter</a>
+  <a
+    href="https://instagram.com/samara.srd"
+    target="_blank"
+    class="btn contact-details"
+    ><i class="fa-brands fa-instagram"></i> Instagram</a>
+  <a href="mailto:sdfadigas@gmail.com" class="btn contact-details" 
+    ><i class="fas fa-at"></i> Email</a>
+  <a href="https://wa.me/5548991077107" class="btn contact-details"
+    ><i class="fa-brands fa-whatsapp"></i> Escreva-me</a>
+</div>
+</footer>
+        <!-- Modal to display Game Insdivuctions -->
+        <div class="modal" id="helpModal">
+            <div class="modal-content">
+                <span aria-label="close" role="button" class="close" onClick="closeHelpModal()">&times;</span>
+                <div class="modal-header">
+                    <h2>How to Play</h2>
+                </div>
+                <div class="modal-body">
+                    <div class="help-tips">
+                        <p>This is a Matching Game used to test your memory retention abilities</p>
+                        <p>The game consists of:</p>
+                        <ul>
+                            <li>&diams; A game board with 16 cards - 8 matching pairs of cards</li>
+                            <li>&diams; A game status indicator which consists of :
+                                <ul>
+                                    <li>&diamond; A rating indicator - A list of stars which indicates your rating based on the number of your moves.</li>
+                                    <li>&diamond; A move counter - Indicates the number of moves you've made.</li>
+                                    <li>&diamond; A timer - Indicates the total number of time you take to match all cards.</li>
+                                    <li>&diamond; A restart button.</li>
+                                </ul>
+                            </li>
+                            <li>&diams; A larger restart button.</li>
+                        </ul>
+                        <p>When the page loads the game starts.</p>
+                        <p>All the 8 pairs of cards i.e 16 cards are flashed</p>
+                        <p>How to play:</p>
+                        <ul>
+                            <li>&bullet; Click on a black square to reveal the card</li>
+                            <li>&bullet; Click on a second black square to reveal the card
+                                <ul>
+                                    <li>a. If the two cards match, the cards stay revealed.</li>
+                                    <li>b. If there is no match, the cards are hidden and you can click another pair.</li>
+                                </ul>
+                            </li>
+                            <li>&bullet; You can click either of the restart buttons <em>↻</em> or <em>Restart ↻</em> at any point in time to start all over.</li>
+                            <li>&bullet; When you have correctly matched all 8 pairs of cards, the game ends and your total game time, total number of moves and rating will be displayed.</li>
+                            <li>&bullet; You can click the <em>Play Again</em> in the modal that pops up to start a new game.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="brown-button" onClick="closeHelpModal()">Close</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootsdivap@5.0.2/dist/js/bootsdivap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
